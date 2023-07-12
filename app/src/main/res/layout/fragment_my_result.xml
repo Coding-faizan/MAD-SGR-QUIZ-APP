@@ -4,11 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:background="#EFE7E7"
+    android:background="#E7EFEE"
     android:padding="20dp"
     tools:context=".MyResult">
 
     <TextView
+        android:layout_marginTop="15dp"
         android:id="@+id/myResultMarks"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -5,13 +5,14 @@
         android:id="@+id/showProfileItem"
 
         android:title="Home"
+        android:textSize="25dp"
         android:visible="true" />
     <item
         android:id="@+id/startQuizItem"
-
+        android:textSize="25dp"
         android:title="Attempt Quiz" />
     <item
         android:id="@+id/showResultItem"
-
+        android:textSize="25dp"
         android:title="Results History" />
 </menu>
