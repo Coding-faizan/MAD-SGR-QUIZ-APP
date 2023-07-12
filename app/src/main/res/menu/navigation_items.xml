@@ -9,9 +9,9 @@
     <item
         android:id="@+id/startQuizItem"
 
-        android:title="test" />
+        android:title="Attempt Quiz" />
     <item
         android:id="@+id/showResultItem"
 
-        android:title="Result" />
+        android:title="Results History" />
 </menu>

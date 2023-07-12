@@ -7,6 +7,7 @@
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
+        android:paddingTop="15dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#EFE7E7"
@@ -18,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:textSize="24sp"
+            android:textSize="25dp"
             android:textStyle="bold" />
 
         <RadioGroup
@@ -31,18 +32,21 @@
                 android:id="@+id/option1RadioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sky" />
+                android:text="Sky"
+                android:textSize="25dp"/>
 
             <RadioButton
                 android:id="@+id/option2RadioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Grass" />
+                android:text="Grass"
+                android:textSize="25dp"/>
 
             <RadioButton
                 android:id="@+id/option3RadioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="25dp"
                 android:text="Root" />
 
         </RadioGroup>
@@ -52,6 +56,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Next"
+            android:layout_marginTop="15dp"
             android:textSize="18sp" />
 
         <TextView
